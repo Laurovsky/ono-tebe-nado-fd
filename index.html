@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="/dev/ono-tebe-nado-fd/styles/style.css" />
-    <link rel="stylesheet" href="/dev/ono-tebe-nado-fd/styles/global.css" />
-    <!-- надо добавить еще шрифт -->
   </head>
   <body>
     <header class="header">
@@ -29,21 +27,29 @@
         alt="Логотип">
       </a>
       <address class="header__contacts">
-        <a class="tel" href="#">+9 999 555 5555</a>
-        <a class="mail" href="#">info@sobaka.ge</a>
-        <a class="address" href="#">наб. Принсенграхт 263- 265, Амстердам</a>  
+        <ul class="header__contacts-list">
+          <li class="header__contacts-list-item">
+            <a class="tel" href="#">+9 999 555 5555</a>
+          </li>
+          <li class="header__contacts-list-item">
+          <a class="mail" href="#">info@sobaka.ge</a>
+          </li>
+          <li class="header__contacts-list_active">
+          <a class="address" href="#">наб. Принсенграхт 263- 265, Амстердам</a>  
+          </li>
+        </ul>
       </address>
     </header>
-    <main>
-      <section class="cover">
-        <h1 class="title">
-          <span>оно</span>
-          <span>тебе</span>
-          <span>надо</span>
+    <main class="main">
+      <section class="main__cover">
+        <h1 class="main__title">
+          <span class="main__title-item__one">оно</span>
+          <span class="main__title-item__second">тебе</span>
+          <span class="main__title-item__third">надо</span>
         </h1>
-        <div class="description">
-          <p class="subline">Аукцион вещей, в которые никто не верил</p>
-          <button class="button">
+        <div class="main__description">
+          <p class="main__description-subline">Аукцион вещей, в которые никто не верил</p>
+          <button class="main__subline-button">
             <span>Сделать ставку</span>
           </button>
         </div>
