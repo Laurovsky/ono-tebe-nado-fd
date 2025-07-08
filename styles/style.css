@@ -1,4 +1,49 @@
-* {
-  margin: 0;
-  padding: 0;
+header {
+  width: 1100px;
+  height: 293px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+
+    /* Временные стили для отладки */
+  border: 1px solid red;
+}
+
+.header__menu{
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 36px;
+  /* align-items: stretch; */
+  /* height: 22px;
+  width: 391.48px; */
+}
+
+.header__menu-list{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 13px;
+  height: 22px;
+  width: 391.48px;
+  text-transform: lowercase;
+}
+
+.header__menu-list-item_active {
+  list-style-type: none;
+}
+
+.header__menu-link_active{
+  text-decoration: none;
+}
+
+.header__menu-list-item{
+  list-style-type: circle;
+}
+
+
+
+.header__logo {
+  width: 148px;
+  height: 105px;
+  /* padding: 92px 184px 96px 36.52px; */
 }
