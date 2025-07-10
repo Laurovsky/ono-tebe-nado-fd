@@ -1,8 +1,9 @@
 @import url(global.css);
-@import url(../fonts/fonts.css);
 
 body {
   font-family: "Raleway", sans-serif;
+  max-width: 1100px;
+  /* margin: 0 auto; */
 }
 
 .header {
